@@ -1,0 +1,27 @@
+<div class="row">
+    <div class="col-6">
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">First Name</label>
+            <input name="firstname" value="{{this.firstname}}" type="text" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Last Name</label>
+            <input name="lastname" value="{{this.lastname}}" type="text" class="form-control">
+        </div>
+    </div>
+    <div class="col-6">
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input name="email" value="{{this.email}}" type="email" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Phone</label>
+            <input name="phone" value="{{this.phone}}" type="text" class="form-control">
+        </div>
+    </div>
+</div>
+<div class="form-floating mb-4">
+    <textarea name="comment" class="form-control" placeholder="Leave a comment here" style="height: 100px">{{this.comment}}</textarea>
+    <label for="floatingTextarea2">Comments</label>
+</div>
+<button type="submit" class="btn btn-primary col-12 mb-2">Submit</button>
